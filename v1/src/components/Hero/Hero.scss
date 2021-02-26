@@ -167,6 +167,16 @@
       font-size: 3.2em;
       letter-spacing: 15px;
     }
+
+    .text p {
+      width: 500px;
+      height: 60px;
+      left: 50%;
+      top: 50%;
+      margin-top: -150px;
+      margin-left: -270px;
+      font-size: 1.5em;
+    }
   }
 
   @media screen and (max-width: 500px) {
@@ -191,7 +201,13 @@
     }
 
     .text p {
-      font-size: 1.2em;
+      width: 370px;
+      height: 60px;
+      left: 50%;
+      top: 50%;
+      margin-top: -140px;
+      margin-left: -185px;
+      font-size: 1em;
     }
 
     .rock1 {

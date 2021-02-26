@@ -4,19 +4,21 @@ import Hero from '../components/Hero/Hero';
 import Container from '@material-ui/core/Container';
 import './Home.scss';
 import headshot from '../assets/headShot.jpg';
+import Fade from 'react-reveal/Fade';
 // import Carousel from '../components/Carousel/Carousel';
 
 function Home() {
     return (
         <div className="home">
-            {/* <Container maxWidth="xl" disableGutters> */}
+            <Container maxWidth="xl" disableGutters>
                 <Hero/> 
-            {/* </Container> */}
+            </Container>
             <Container maxWidth="xl" className="section1">
                 <div className="heading" id="about">
                     <h1>About Me</h1>
                 </div>
                 <div className="about">
+                <Fade left duration={1500}>
                     <div className="about-text">
                         <p>Here is a little about me.</p>
                         <p>I'm Nikhil, a software developer based in NJ.</p>
@@ -32,9 +34,12 @@ function Home() {
                             <li>Node.js</li>
                         </ul>
                     </div>
+                    </Fade>
+                    <Fade right duration={1500}>
                     <div className="about-image">
                         <img src={headshot} alt="me" className="img"/>
                     </div>
+                    </Fade>
                 </div>
             </Container>
 
