@@ -1,0 +1,211 @@
+
+.hero {
+  height: 100vh;
+
+  .bg img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: brightness(0.7);
+    z-index: -1;
+    // overflow: visible;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+  }
+  
+  .rock1 {
+    position: absolute !important;
+    left: 10vw !important;
+    top: 25vh !important;
+    animation: rock-anim 25s alternate-reverse infinite linear;
+  
+    img {
+      width: 30%;
+      filter: brightness(0.8);
+    }
+  }
+  
+  .rock2 {
+    position: absolute !important;
+    left: 70vw !important;
+    top: 30vh !important;
+    animation: rock-anim 20s alternate-reverse infinite linear;
+  
+    img {
+      width: 25%;
+      filter: brightness(0.8);
+    }
+  }
+  
+  .rock3 {
+    position: absolute !important;
+    left: 80vw !important;
+    top: 65vh !important;
+    animation: rock-anim 30s alternate-reverse infinite linear;
+  
+    img {
+      width: 25%;
+      filter: brightness(0.8);
+    }
+  }
+  
+  @keyframes world-anim {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(45deg);
+    }
+  }
+  
+  @keyframes rock-anim {
+    from {
+      transform: translateY(0);
+      transform: rotate(0deg);
+    }
+    to {
+      transform: translateY(-70px);
+      transform: rotate(45deg);
+    }
+  }
+  
+  
+  .text h1 {
+    font-family: "AlphaCentauri" !important;
+    font-size: 5em;
+    color: #fff;
+    letter-spacing: 20px;
+    position: absolute;
+    text-align: center;
+    width: 800px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: -400px;
+    z-index: 3;
+  }
+
+  .text p {
+    font-family: "AlphaCentauri" !important;
+    font-size: 2em;
+    color: #fff;
+    letter-spacing: 5px;
+    padding: 0 0.6em;
+    position: absolute;
+    text-align: left;
+    width: 400px;
+    height: 60px;
+    left: 50%;
+    top: 50%;
+    margin-top: -150px;
+    margin-left: -400px;
+    z-index: 3;
+  }
+  
+  .earth img {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin-top: -250px;
+    margin-left: -250px;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    filter: brightness(0.8);
+  }
+  
+  .mid {
+    left: -150px !important;
+    bottom: -100px !important;
+    top: unset !important;
+  }
+  
+  .mid img {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    right: -15px;
+    top: 30vh !important;
+    filter: brightness(0.8);
+  }
+  
+  .fore {
+    right: -50px !important;
+    bottom: -200px !important;
+    top: 0px !important;
+    left: unset !important;
+  }
+  
+  .fore img {
+    position: absolute;
+    width: 400px;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    filter: brightness(0.5);
+  }
+
+  @media screen and (max-width: 960px) {
+    .bg img {
+      height: 80vh;
+      // display: none;
+    }
+
+    .earth img {
+      width: 400px;
+      height: 400px;
+      margin-top: -250px; /* Half the height */
+      margin-left: -200px;
+    }
+
+    .text h1 {
+      font-size: 3.2em;
+      letter-spacing: 15px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .bg {
+      height: 80vh;
+      background: radial-gradient(circle, rgba(144,44,233,1) 0%, rgba(142,50,248,1) 35%, rgba(48,6,128,1) 100%);
+      img {
+        display: none; 
+      }
+    }
+
+    .earth img {
+      width: 250px;
+      height: 250px;
+      margin-top: -155px; /* Half the height */
+      margin-left: -125px;
+    }
+
+    .text h1 {
+      font-size: 2.2em;
+      letter-spacing: 10px;
+    }
+
+    .text p {
+      font-size: 1.2em;
+    }
+
+    .rock1 {
+      img {
+        width: 10%;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 460px) {
+  .hero {
+    height: 80vh;
+  }
+}
+
