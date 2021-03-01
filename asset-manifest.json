@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/parallax/static/css/main.bc1d0ac9.chunk.css",
-    "main.js": "/parallax/static/js/main.4a493364.chunk.js",
-    "main.js.map": "/parallax/static/js/main.4a493364.chunk.js.map",
+    "main.css": "/parallax/static/css/main.65f916ce.chunk.css",
+    "main.js": "/parallax/static/js/main.2ca73ed7.chunk.js",
+    "main.js.map": "/parallax/static/js/main.2ca73ed7.chunk.js.map",
     "runtime-main.js": "/parallax/static/js/runtime-main.daed69e0.js",
     "runtime-main.js.map": "/parallax/static/js/runtime-main.daed69e0.js.map",
     "static/js/2.17e36830.chunk.js": "/parallax/static/js/2.17e36830.chunk.js",
     "static/js/2.17e36830.chunk.js.map": "/parallax/static/js/2.17e36830.chunk.js.map",
     "index.html": "/parallax/index.html",
-    "static/css/main.bc1d0ac9.chunk.css.map": "/parallax/static/css/main.bc1d0ac9.chunk.css.map",
+    "static/css/main.65f916ce.chunk.css.map": "/parallax/static/css/main.65f916ce.chunk.css.map",
     "static/js/2.17e36830.chunk.js.LICENSE.txt": "/parallax/static/js/2.17e36830.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/parallax/static/media/Alphacentauri-MVY4p.53d9fa1d.ttf",
     "static/media/aws.74a853b3.png": "/parallax/static/media/aws.74a853b3.png",
@@ -43,7 +43,7 @@
   "entrypoints": [
     "static/js/runtime-main.daed69e0.js",
     "static/js/2.17e36830.chunk.js",
-    "static/css/main.bc1d0ac9.chunk.css",
-    "static/js/main.4a493364.chunk.js"
+    "static/css/main.65f916ce.chunk.css",
+    "static/js/main.2ca73ed7.chunk.js"
   ]
 }
