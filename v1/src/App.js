@@ -1,5 +1,5 @@
 import './App.scss';
-import Home from './views/Home';
+import Home from './views/Home/Home';
 import Navbar from './components/Navbar/Navbar';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 

@@ -1,0 +1,16 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 5px 11px 100px rgba(0, 0, 0, 0.205);
+    background: linear-gradient(
+      109.26deg,
+      rgba(255, 255, 255, 0.342) 0%,
+      rgba(255, 255, 255, 0.048) 100.54%
+    );
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    transition: 1s ease-in-out;
+    z-index: 2;
+  }
