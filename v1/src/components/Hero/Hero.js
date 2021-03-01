@@ -13,7 +13,6 @@ function Hero() {
 
   return (
     <div className="hero">
-      <div className="scene">
         <div className="bg">
           <img src={bk} alt="" />
         </div>
@@ -33,7 +32,6 @@ function Hero() {
           <p className="title">Welcome to,</p>
           <h1 className="title">NIKHIL PATEL</h1>
         </div>
-      </div>
     </div>
   );
 }
