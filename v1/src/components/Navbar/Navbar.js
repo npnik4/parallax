@@ -24,12 +24,8 @@ function Navbar() {
 
   window.addEventListener('resize', showButton);
 
-  const kickStarter = (flag) => {
-    if (flag) {
-      setClick(false);
-    }
-    const url = 'https://www.kickstarter.com/';
-    window.open(url, '_blank');
+  const buttonClick = () => {
+    
   }
 
   return (
@@ -78,14 +74,14 @@ function Navbar() {
             <a
               href='/'
               className='nav-links-mobile'
-              onClick={() => kickStarter(true)}
+              onClick={() => buttonClick()}
               >
               Resume
               </a>
           </li>
         </ul>
         {button && 
-          <Button className="nav-button" size="medium" color="primary" variant="outlined" onClick={() => kickStarter(false)}>Resume</Button>}
+          <Button className="nav-button" size="medium" color="primary" variant="outlined" onClick={() => buttonClick()}>Resume</Button>}
       </div>
     </nav>
   );
