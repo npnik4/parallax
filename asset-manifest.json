@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/parallax/static/css/main.65f916ce.chunk.css",
-    "main.js": "/parallax/static/js/main.2ca73ed7.chunk.js",
-    "main.js.map": "/parallax/static/js/main.2ca73ed7.chunk.js.map",
+    "main.js": "/parallax/static/js/main.93432f89.chunk.js",
+    "main.js.map": "/parallax/static/js/main.93432f89.chunk.js.map",
     "runtime-main.js": "/parallax/static/js/runtime-main.daed69e0.js",
     "runtime-main.js.map": "/parallax/static/js/runtime-main.daed69e0.js.map",
     "static/js/2.17e36830.chunk.js": "/parallax/static/js/2.17e36830.chunk.js",
@@ -44,6 +44,6 @@
     "static/js/runtime-main.daed69e0.js",
     "static/js/2.17e36830.chunk.js",
     "static/css/main.65f916ce.chunk.css",
-    "static/js/main.2ca73ed7.chunk.js"
+    "static/js/main.93432f89.chunk.js"
   ]
 }
